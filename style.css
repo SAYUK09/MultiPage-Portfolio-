@@ -59,3 +59,56 @@ header h1{
 header span{
     color:var(--primary-color);
 }
+
+section {
+    margin: 1rem 0;
+}
+
+.offWhite{
+    background-color: rgb(208,205,225);
+    padding: 10px;
+}
+
+.container h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.centerContainer{
+    max-width: 40%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+.container p {
+    margin: 10px;
+}
+
+.white{
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.white.container a {
+    padding: 15px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    display: block;
+    max-width: 60px;
+    margin: auto;
+    text-align: center;
+}
+
+.offWhite.container a{
+    padding: 15px;
+    display: block;
+    max-width: 60px;
+    margin: auto;
+    color: var(--primary-color);
+    text-decoration: none;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
