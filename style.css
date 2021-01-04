@@ -1,3 +1,6 @@
+:root{
+    --primary-color:#4C1D95;
+}
 
 *{
     margin: 0;
@@ -6,16 +9,18 @@
 
 
 nav {
-    background-color: #4C1D95;
+    background-color:var(--primary-color);
     color: white;
     display: flex;
     justify-content: space-between;
     padding: 16px;
-    border-bottom-left-radius:10px ;
-    border-bottom-right-radius:10px ;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius:15px ;
 }
 
-.navBrand{
+.navBrand a{
+    color: white;
+    text-decoration: none;
     font-weight: bold;
     font-size:larger;
 }
@@ -34,4 +39,23 @@ ul li a{
 
 ul li a:hover{
     background-color: black;
+}
+header{
+    padding: 10px;
+}
+
+header img{
+    max-width: 40%;
+    padding: 20px;
+    display: block;
+    margin: auto;
+}
+
+header h1{
+    padding: 10px;
+    text-align: center;
+}
+
+header span{
+    color:var(--primary-color);
 }
