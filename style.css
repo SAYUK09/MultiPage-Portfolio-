@@ -1,5 +1,6 @@
 :root{
     --primary-color:#4C1D95;
+    --secondary-color:rgb(208,205,225);
 }
 
 *{
@@ -25,19 +26,19 @@ nav {
     font-size:larger;
 }
 
-ul li {
+nav ul li {
     /* list-style: none; */
     display: inline; 
     
 }
 
-ul li a{
+nav ul li a{
    text-decoration: none;
    color: white;
    padding:20px;
 }
 
-ul li a:hover{
+nav ul li a:hover{
     background-color: black;
 }
 header{
@@ -60,12 +61,12 @@ header span{
     color:var(--primary-color);
 }
 
-section {
-    margin: 1rem 0;
-}
+/* .container {
+    padding: 10rem;
+} */
 
 .offWhite{
-    background-color: rgb(208,205,225);
+    background-color:var(--secondary-color);
     padding: 10px;
 }
 
@@ -111,4 +112,44 @@ section {
     text-decoration: none;
     border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
+}
+
+footer{
+    padding: 1rem;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.footerHeader{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+footer .footerUl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footerUl li {
+    display: inline; 
+    padding: 20px;
+    
+}
+
+.fab.fa-instagram{
+    color: var(--secondary-color);
+    font-weight: 400;
+}
+
+.fab {
+    font-size: 20px;
+    color: var(--secondary-color);
 }
