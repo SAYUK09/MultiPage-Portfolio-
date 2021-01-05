@@ -41,7 +41,6 @@ nav ul li a{
 nav ul li a:hover{
     background-color: black;
 }
-
 header{
     padding: 10px;
 }
@@ -63,14 +62,14 @@ header span{
 }
 
 
-.projUl article{
+.blogsUl article{
     max-width: 70%;
     display: block;
     margin: auto;
     padding: 15px;
 }
 
-.projUl{
+.blogsUl{
     padding: 1rem;
     list-style: none;
 }
@@ -83,7 +82,7 @@ header span{
     color: var(--primary-color);
 }
 
-.projUl article .secondary {
+.blogsUl article .secondary {
     padding: 15px;
     display: block;
     max-width: 60px;
@@ -95,7 +94,7 @@ header span{
     text-align: center;
 }
 
-.projUl article .primary{
+.blogsUl article .primary{
     padding: 15px;
     margin:10px 0;
     background-color: var(--primary-color);
@@ -109,16 +108,19 @@ header span{
     border: 1px solid transparent;
 }
 
-.projUl article .primary:hover {
+.blogsUl article .primary:hover {
     background-color:transparent;
     color: var(--primary-color);
     border:1px solid var(--primary-color);
 }
 
-.projUl article .secondary:hover{
+.blogsUl article .secondary:hover{
     background-color:var(--primary-color); 
     color: white;
 }
+
+
+
 
 footer{
     padding: 1rem;
@@ -164,4 +166,3 @@ footer .footerUl li {
     color: white;
     text-shadow: 2px 2px 4px black;
 }
-
