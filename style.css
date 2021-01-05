@@ -114,6 +114,17 @@ header span{
     border-radius: 0.5rem;
 }
 
+.offWhite.container a:hover {
+    background-color:var(--primary-color); 
+    color: white;
+}
+
+.white.container a:hover {
+    background-color:transparent;
+    color: var(--primary-color);
+    border:1px solid var(--primary-color);
+}
+
 footer{
     padding: 1rem;
     background-color: var(--primary-color);
