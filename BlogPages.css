@@ -41,6 +41,7 @@ nav ul li a{
 nav ul li a:hover{
     background-color: black;
 }
+
 header{
     padding: 10px;
 }
@@ -61,69 +62,16 @@ header span{
     color:var(--primary-color);
 }
 
-/* .container {
-    padding: 10rem;
-} */
-
-.offWhite{
-    background-color:var(--secondary-color);
-    padding: 10px;
-}
-
-.container h1{
-    text-align: center;
-    padding: 10px;
-}
-
-.centerContainer{
-    max-width: 40%;
+section{
+    max-width: 50%;
     display: block;
     margin: auto;
-    padding: 10px;
+    font-family: cursive;
+    font-size: 1.2rem;
 }
 
-.container p {
-    margin: 10px;
-}
-
-.white{
-    background-color: whitesmoke;
-    padding: 10px;
-}
-
-.white.container a  {
-    padding: 15px;
-    background-color: var(--primary-color);
-    color: white;
-    text-decoration: none;
-    border-radius: 0.5rem;
-    display: block;
-    max-width: 60px;
-    margin: auto;
-    text-align: center;
-}
-
-.offWhite.container a{
-    padding: 15px;
-    display: block;
-    max-width: 60px;
-    margin: auto;
-    color: var(--primary-color);
-    text-decoration: none;
-    border: 1px solid var(--primary-color);
-    border-radius: 0.5rem;
-    text-align: center;
-}
-
-.offWhite.container a:hover {
-    background-color:var(--primary-color); 
-    color: white;
-}
-
-.white.container a:hover {
-    background-color:transparent;
-    color: var(--primary-color);
-    border:1px solid var(--primary-color);
+p {
+    padding: 20px 0;
 }
 
 footer{
@@ -170,3 +118,4 @@ footer .footerUl li {
     color: white;
     text-shadow: 2px 2px 4px black;
 }
+
